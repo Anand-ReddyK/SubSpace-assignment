@@ -14,7 +14,6 @@ const SignIn = () => {
     signInEmailPassword,
     isLoading,
     isSuccess,
-    needsEmailVerification,
     isError,
     error,
   } = useSignInEmailPassword();
