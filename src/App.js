@@ -10,8 +10,8 @@ import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
 
 const nhost = new NhostClient({
-  subdomain: process.env.REACT_APP_NHOST_SUBDOMAIN || '',
-  region: process.env.REACT_APP_NHOST_REGION || '',
+  subdomain: "fkimxmlrkbqkovqtiuvv",
+  region: "ap-south-1",
 });
 
 function App() {
