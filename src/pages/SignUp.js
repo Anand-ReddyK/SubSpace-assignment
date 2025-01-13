@@ -1,5 +1,5 @@
 import styles from '../styles/pages/SignUp.module.css';
-
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import SignUp from '../components/SignUp';
 

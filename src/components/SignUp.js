@@ -1,5 +1,5 @@
 import styles from '../styles/components/SignUp.module.css';
-
+import React from 'react';
 import { useState } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 import Input from './Input';

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from '../styles/pages/Dashboard.module.css';
-
+import React from 'react';
 const Dashboard = () => {
   const [url, setUrl] = useState('');
   const [response, setResponse] = useState('');

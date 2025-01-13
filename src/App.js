@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import {NhostClient, NhostProvider} from '@nhost/react';
-
+import React from 'react';
 import ProtectedRoute from './components/ProtectedRoute';
 import Layout from './components/Layout';
 import SignUp from './pages/SignUp';

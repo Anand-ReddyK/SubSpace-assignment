@@ -1,5 +1,5 @@
 import styles from '../styles/pages/Profile.module.css';
-
+import React from 'react';
 import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useOutletContext } from 'react-router-dom';

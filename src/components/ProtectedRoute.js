@@ -2,7 +2,7 @@ import styles from '../styles/components/ProtectedRoute.module.css';
 import { useAuthenticationStatus } from '@nhost/react';
 import { Navigate } from 'react-router-dom';
 import Spinner from './Spinner';
-
+import React from 'react';
 export default function ProtectedRoute({ children }) {
   const { isAuthenticated, isLoading } = useAuthenticationStatus();
 

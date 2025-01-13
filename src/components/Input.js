@@ -1,5 +1,5 @@
 import styles from '../styles/components/Input.module.css';
-
+import React from 'react';
 const Input = ({ type = 'text', label = '', ...props }) => {
   return (
     <div className={styles.container}>

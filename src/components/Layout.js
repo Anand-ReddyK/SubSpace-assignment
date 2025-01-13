@@ -1,5 +1,5 @@
 import styles from '../styles/components/Layout.module.css';
-
+import React from 'react';
 import { Fragment } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import { Menu, Transition } from '@headlessui/react';
