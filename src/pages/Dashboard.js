@@ -21,7 +21,7 @@ const Dashboard = () => {
 
   const handleSubmit = async () => {
     try {
-      const res = await fetch('https://n8n-dev.subspace.money/webhook-test/20ffd5f2-4515-47f7-8455-3f062ff91fe4', {
+      const res = await fetch('https://n8n-dev.subspace.money/webhook/20ffd5f2-4515-47f7-8455-3f062ff91fe4', {
         method: 'POST',
         body: JSON.stringify({ url }),
         headers: { 'Content-Type': 'application/json' },
